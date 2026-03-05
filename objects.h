@@ -3,7 +3,7 @@
 #define ROWS 20
 #define COLS 10
 
-static unsigned char game_field[ROWS][COLS]
+static unsigned char game_field[ROWS][COLS]                                 // active game field
 	{ {0} };
 static constexpr unsigned char square[2][2]                                 // ##
 	{                                                                   // ##
