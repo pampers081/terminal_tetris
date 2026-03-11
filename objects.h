@@ -5,43 +5,43 @@
 
 static unsigned char game_field[ROWS][COLS]                                 // active game field
 	{ {0} };
-static constexpr unsigned char square[2][2]                                 // ##
+static constexpr unsigned char square[2][2]                                 // ## square
 	{                                                                   // ##
 		{1,1},
 		{1,1}
 	};
-static constexpr unsigned char line_figure[4][4]                            // ####
+static constexpr unsigned char line_figure[4][4]                            // #### line 
 	{
 		{0,0,0,0},
 		{1,1,1,1},
 		{0,0,0,0},
 		{0,0,0,0}
 	};
-static constexpr unsigned char t_figure[3][3]                               //  #
+static constexpr unsigned char t_figure[3][3]                               //  #  T figure
 	{                                                                   // ###
 		{0,1,0},
 		{1,1,1},
 		{0,0,0}
 	};
-static constexpr unsigned char l_figure[3][3]                               //   #
+static constexpr unsigned char l_figure[3][3]                               //   # L figure
 	{                                                                   // ###
 		{0,0,1},
 		{1,1,1},
 		{0,0,0}
 	};
-static constexpr unsigned char j_figure[3][3]                               // #
+static constexpr unsigned char j_figure[3][3]                               // #   J figure
 	{                                                                   // ###
 		{1,0,0},
 		{1,1,1},
 		{0,0,0}
 	};
-static constexpr unsigned char s_figure[3][3]                               //  ##
+static constexpr unsigned char s_figure[3][3]                               //  ## S figure
 	{                                                                   // ##
 		{0,1,1},
 		{1,1,0},
 		{0,0,0}
 	};
-static constexpr unsigned char z_figure[3][3]                               // ##
+static constexpr unsigned char z_figure[3][3]                               // ##  Z figure
 	{                                                                   //  ##
 		{1,1,0},
 		{0,1,1},
